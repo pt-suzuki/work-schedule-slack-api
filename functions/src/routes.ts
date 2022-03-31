@@ -10,7 +10,7 @@ const scheduleCommand = new ScheduleCommandAction(
 );
 
 const router = (app: App) => {
-  app.command('/echo', async ({ command, ack, respond }) => {
+  app.command('/work_schedule', async ({ command, ack, respond }) => {
     ack();
     scheduleCommand.invoke(command, respond);
   });
