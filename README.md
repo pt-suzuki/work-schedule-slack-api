@@ -2,7 +2,7 @@
 
 こいつのデータを受け取ってSlackアプリに今日の出勤スケジュールを出力する
 
-https://github.com/pt-suzuki/work_schedule_output
+[work_schedule_output](https://github.com/pt-suzuki/work_schedule_output)
 
 ```/work_schedule``` コマンドで出力する
 
