@@ -1,0 +1,16 @@
+# Compiled JavaScript files
+lib
+
+# TypeScript v1 declaration files
+typings/
+
+# Node.js dependency directory
+node_modules/
+
+dist
+.env
+coverage
+
+env.dev-personal.json
+.env.test
+.env

@@ -1,0 +1,12 @@
+{
+  "name": "cls-project",
+  "version": "1.0.0",
+  "description": "CLS Project",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "serve": "firebase functions:config:get > functions/.runtimeconfig.json && firebase serve",
+    "deploy": "firebase deploy"
+  },
+  "devDependencies": {}
+}
