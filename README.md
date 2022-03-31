@@ -6,9 +6,23 @@
 
 ```/work_schedule``` コマンドで出力する
 
+firebase configのセットは方針を検討中
+
 ## firebaseへのデプロイ
 
 ### 前提
+
+.firebasercにデプロイしたいプロジェクトのprojectIDを入力する
+
+```json
+
+{
+  "projects": {
+    "default": "ここにprojectIdを入力する"
+  }
+}
+
+```
 
 .firebasercにデプロイしたいプロジェクトのprojectIDを入力する
 
