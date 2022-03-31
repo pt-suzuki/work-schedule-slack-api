@@ -3,15 +3,15 @@ import { WorkScheduleTranslatorImpl } from '~/domains/work_schedule/work_schedul
 import { WorkScheduleServiceImpl } from '~/domains/work_schedule/work_schedule_service';
 import { axios, responseHandler } from './init';
 
-const scheduleTranslator = new WorkScheduleTranslatorImpl(responseHandler);
-const scheduleRepository = new WorkScheduleRepositoryImpl(
-  scheduleTranslator,
+const workScheduleTranslator = new WorkScheduleTranslatorImpl(responseHandler);
+const workScheduleRepository = new WorkScheduleRepositoryImpl(
+  workScheduleTranslator,
   axios
 );
 
-const scheduleService = new WorkScheduleServiceImpl(
-  scheduleTranslator,
-  scheduleRepository
+const workScheduleService = new WorkScheduleServiceImpl(
+  workScheduleTranslator,
+  workScheduleRepository
 );
 
-export { scheduleService, scheduleTranslator };
+export { workScheduleService, workScheduleTranslator };
